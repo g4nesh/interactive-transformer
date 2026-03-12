@@ -32,7 +32,36 @@ export function createApp(root) {
 
         <footer class="sidebar-footer">
           <p>Made by Luxen LLC</p>
-          <a href="https://x.com/ganstlr" target="_blank" rel="noreferrer">x.com/ganstlr</a>
+          <div class="sidebar-footer-links">
+            <a
+              href="https://x.com/ganstlr"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="X profile"
+              title="X profile"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M18.901 2H21.98l-6.726 7.686L23.167 22h-6.193l-4.85-7.297L5.74 22H2.659l7.194-8.224L.833 2h6.35l4.384 6.704L18.901 2Zm-1.083 18.13h1.706L6.26 3.774H4.43l13.388 16.357Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://github.com/g4nesh/interactive-transformer"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub repository"
+              title="GitHub repository"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 .5C5.648.5.5 5.648.5 12a11.5 11.5 0 0 0 7.86 10.918c.575.105.785-.25.785-.555 0-.273-.01-1-.016-1.962-3.197.695-3.872-1.54-3.872-1.54-.523-1.328-1.277-1.682-1.277-1.682-1.044-.713.079-.699.079-.699 1.154.081 1.761 1.186 1.761 1.186 1.026 1.758 2.692 1.25 3.348.956.104-.743.402-1.25.732-1.537-2.552-.29-5.236-1.276-5.236-5.68 0-1.254.448-2.28 1.183-3.083-.12-.289-.513-1.457.111-3.038 0 0 .965-.309 3.162 1.178A10.97 10.97 0 0 1 12 6.04c.975.005 1.958.132 2.876.388 2.195-1.487 3.158-1.178 3.158-1.178.626 1.58.233 2.749.114 3.038.737.803 1.18 1.83 1.18 3.083 0 4.415-2.688 5.386-5.248 5.67.414.357.783 1.061.783 2.139 0 1.545-.014 2.79-.014 3.17 0 .308.207.666.79.553A11.502 11.502 0 0 0 23.5 12C23.5 5.648 18.352.5 12 .5Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
         </footer>
       </aside>
 
