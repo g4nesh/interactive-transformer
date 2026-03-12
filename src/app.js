@@ -29,6 +29,11 @@ export function createApp(root) {
           <p class="output-label">Autoregressive output</p>
           <div id="output-text" class="output-text"></div>
         </section>
+
+        <footer class="sidebar-footer">
+          <p>Made by Luxen LLC</p>
+          <a href="https://x.com/ganstlr" target="_blank" rel="noreferrer">x.com/ganstlr</a>
+        </footer>
       </aside>
 
       <section class="viewer-shell">
